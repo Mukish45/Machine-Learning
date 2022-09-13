@@ -1,1 +1,12 @@
-This is the basic concept of ROC Curve.
+ROC stands for Receiver Operating Characteristic curve.
+An ROC curve is a graph which is used to show the performance of a classification model at all classification thresholds. 
+This curve plots two parameters:
+  > True Positive Rate.
+  > False Positive Rate.
+  
+True Positive Rate:
+  True Positive Rate which is known as Recall. This is defined as follow:
+    TPR = (TP)/(TP+FP).
+      where TRP is the True Positive Rate,
+      TP is the True Positive,
+      FP is the False Positive.
