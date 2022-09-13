@@ -10,3 +10,25 @@ True Positive Rate:
       where TRP is the True Positive Rate,
       TP is the True Positive,
       FP is the False Positive.
+      
+False Positive Rate:
+  False Positive Rate is defined as follow:
+    FPR = (FP)/(FP+TN)
+      where FPR is False Positive Rate,
+      FP is the False Positive,
+      TN is the True Negative.
+
+Note:
+> True positive are the samples which are actually true (1) and predicted also positive (1).
+> True negative are the samples which are actually false (0) and predicted also false (0).
+> False positive are the samples which are actually false (0) but predicted as true (1).
+> False negative are the samples which are actually true (1) but predicted as false (0).
+
+        Actual value | Prediction
+* TP -  True (1)     | True (1)
+* TN -  False(0)     | False(0)
+* FP -  False(0)     | True (1)
+* FN -  True (1)     | False(0)
+
+
+An ROC curve plots TPR vs FPR at different classification thresholds. Lowering the classification threshold classifies more items as positive, thus increasing both False Positives and True Positives.
